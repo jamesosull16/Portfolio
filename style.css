@@ -18,12 +18,4 @@ section {
 .card-body {
   padding: 10px;
 }
-
-.card-columns {
-    @media media-breakpoint-only(lg) {
-      column-count: 4;
-    }
-    @media media-breakpoint-only(xl) {
-      column-count: 5;
-    }
-  }  
+  
