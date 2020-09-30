@@ -36,25 +36,25 @@
 
       <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
         <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item active">
+          <li class="nav-item">
             <a class="nav-link" href="./portfolio.html"
               >Portfolio <span class="sr-only">(current)</span></a
             >
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./contact.html">Contact</a>
+            <a class="nav-link" href="./contact.html"
+              >Contact<span class="sr-only">(current)</span></a
+            >
           </li>
         </ul>
       </div>
     </nav>
 
     <main class="container">
+      <div class="row"></div>
 
       <div class="row">
         <h1>Reach Out</h1>
-      </div>
-
-      <div class="row">
         <div class="col-md-12">
           <form>
             <div class="form-group">
@@ -83,19 +83,32 @@
                 rows="5"
               ></textarea>
             </div>
-            <a
-              class="btn btn-outline-success"
-              href="mailto:jamesosull16@gmail.com"
-              type="submit"
-              role="button"
+            <a class="btn btn-outline-dark" href="#" type="submit" role="button"
               >Submit</a
             >
+            <div
+              class="g-recaptcha"
+              data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"
+            ></div>
           </form>
         </div>
       </div>
     </main>
 
-    <footer class="fixed-bottom">This is a sticky footer</footer>
+    <footer class="fixed-bottom">
+      <a href="https://github.com/jamesosull16" target="_blank">
+        <img src="./assets/gethubwhite.png" alt="Github"
+      /></a>
+      <a
+        href="https://www.linkedin.com/in/james-o-sullivan-5081b941/"
+        target="_blank"
+      >
+        <img src="./assets/linkedinwhite.png" alt="Linkedin"
+      /></a>
+      <a href="https://www.instagram.com/josullivantri16/" target="_blank">
+        <img src="./assets/instagramwhite.png" alt="Instagram"
+      /></a>
+    </footer>
 
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
@@ -112,5 +125,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
+    <script src="https://www.google.com/recaptcha/api.js"></script>
   </body>
 </html>

@@ -3,8 +3,6 @@ body {
   overflow-x: hidden;
 }
 
-
-
 p {
   text-align: justify;
   font-size: 20px;
@@ -33,15 +31,23 @@ margin: 50px;
   background-color: #ece5dd;
 }
 
+.card-body img {
+    margin-right: 20px;
+}
+
+form label {
+    font-weight: bold;
+    font-size: 20px;
+}
 footer {
   text-align: center;
-  background-color: #ece5dd;
-  margin-top: 3rem;
+  background-color: #343a3f;
+  /* margin-top: 3rem; */
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 356px) {
-  .card img {
-    width: 357px;
+@media screen and (max-width: 420px) {
+  .card-body img {
+    width: 421px;
   }
 }
