@@ -1,10 +1,9 @@
 body {
-  background-color: lightgray;
+  background-image: url("./assets/background2.jpeg");
+  overflow-x: hidden;
 }
 
-nav a {
-  font-family: "Righteous", cursive;
-}
+
 
 p {
   text-align: justify;
@@ -13,34 +12,36 @@ p {
 }
 
 h1 {
-  padding: 15px;
   font-size: 50px;
   font-family: "Squada One", cursive;
 }
 
-.container {
-  padding: 20px;
-}
+nav {
+    margin-bottom: 20px;
+  }
+  
+  nav a {
+    font-family: "Righteous", cursive;
+  }
 
-aside img {
-  border: 1px solid black;
-}
-
-section {
-  margin: 20px;
+.card {
+margin: 50px;
 }
 
 .card-body {
   padding: 10px;
+  background-color: #ece5dd;
 }
 
 footer {
-  position: -webkit-sticky;
-  bottom: 0;
-  width: 100%;
   text-align: center;
+  background-color: #ece5dd;
+  margin-top: 3rem;
+  overflow-x: hidden;
 }
 
-footer p {
-  text-align: center;
+@media screen and (max-width: 356px) {
+  .card img {
+    width: 357px;
+  }
 }
