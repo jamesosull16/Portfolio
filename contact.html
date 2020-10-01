@@ -20,6 +20,7 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
+    <!-- start of navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="./index.html">James O'Sullivan</a>
       <button
@@ -49,52 +50,53 @@
         </ul>
       </div>
     </nav>
-
-    <main class="container">
-      <div class="row"></div>
-
-      <div class="row">
-        <h1>Reach Out</h1>
-        <div class="col-md-12">
-          <form>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Full Name</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Full Name"
-              />
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlInput1">Email Address</label>
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="info@email.com"
-              />
-            </div>
-            <div class="form-group">
-              <label for="exampleFormControlTextarea1">Message</label>
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                rows="5"
-              ></textarea>
-            </div>
-            <a class="btn btn-outline-dark" href="#" type="submit" role="button"
-              >Submit</a
-            >
-            <div
-              class="g-recaptcha"
-              data-sitekey="6LcePAATAAAAAGPRWgx90814DTjgt5sXnNbV5WaW"
-            ></div>
-          </form>
+    <!-- start of form -->
+    <main class="row">
+      <div class="col-lg-1"></div>
+      <div class="col-lg-10">
+        <div class="card">
+          <section class="card-body">
+            <h1>Reach Out</h1>
+            <form>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Full Name</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="Full Name"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlInput1">Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="exampleFormControlInput1"
+                  placeholder="info@email.com"
+                />
+              </div>
+              <div class="form-group">
+                <label for="exampleFormControlTextarea1">Message</label>
+                <textarea
+                  class="form-control"
+                  id="exampleFormControlTextarea1"
+                  rows="5"
+                ></textarea>
+              </div>
+              <a
+                class="btn btn-outline-dark"
+                href="#"
+                type="submit"
+                role="button"
+                >Submit</a
+              >
+            </form>
+          </section>
         </div>
       </div>
     </main>
-
+    <!-- footer code -->
     <footer class="fixed-bottom">
       <a href="https://github.com/jamesosull16" target="_blank">
         <img src="./assets/githubwhite.png" alt="Github"
@@ -109,7 +111,7 @@
         <img src="./assets/instagramwhite.png" alt="Instagram"
       /></a>
     </footer>
-
+<!-- importing bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -125,6 +127,5 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="https://www.google.com/recaptcha/api.js"></script>
   </body>
 </html>
