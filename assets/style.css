@@ -1,5 +1,5 @@
 body {
-  background-image: url("./background2.jpeg"./background2.jpeg)
+  background-image: url("./background2.jpeg");
   overflow-x: hidden;
 }
 
@@ -15,7 +15,7 @@ h1 {
 }
 
 nav {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 a {
@@ -39,7 +39,7 @@ form label {
 footer {
   text-align: center;
   background-color: #343a3f;
-  margin-top: 10px;
+  margin-top: 20px;
   overflow-x: hidden;
 }
 
