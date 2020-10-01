@@ -1,0 +1,52 @@
+body {
+  background-image: url("./assets/background2.jpeg");
+  overflow-x: hidden;
+}
+
+p {
+  text-align: justify;
+  font-size: 20px;
+  font-family: "Nova Flat", cursive;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: "Squada One", cursive;
+}
+
+nav {
+  margin-bottom: 20px;
+}
+
+a {
+  font-family: "Righteous", cursive;
+}
+
+.card {
+  margin: 50px;
+  padding: 10px;
+  background-color: #ece5dd;
+  
+}
+
+.card-body img {
+  margin-right: 20px;
+}
+
+form label {
+  font-weight: bold;
+  font-size: 20px;
+}
+footer {
+  text-align: center;
+  background-color: #343a3f;
+  margin-top: 10px;
+  overflow-x: hidden;
+}
+
+@media screen and (max-width: 690px) {
+    .carousel-slie {
+        height: 100%;
+    }
+}
+
