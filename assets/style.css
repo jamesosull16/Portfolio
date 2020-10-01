@@ -18,7 +18,7 @@ nav {
   margin-bottom: 20px;
 }
 
-nav a {
+a {
   font-family: "Righteous", cursive;
 }
 
@@ -32,10 +32,6 @@ nav a {
   margin-right: 20px;
 }
 
-.carousel-item img {
-    
-}
-
 form label {
   font-weight: bold;
   font-size: 20px;
@@ -47,8 +43,9 @@ footer {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 420px) {
-  .card-body img {
-    width: 421px;
-  }
+@media screen and (max-width: 690px) {
+    .carousel-slie {
+        height: 100%;
+    }
 }
+
