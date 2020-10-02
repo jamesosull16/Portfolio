@@ -1,6 +1,13 @@
+html,
+body,
+main {
+  height: 100%;
+}
+
 body {
   background-image: url("./background2.jpeg");
   overflow-x: hidden;
+  background-size: cover;
 }
 
 p {
@@ -43,9 +50,30 @@ footer {
   overflow-x: hidden;
 }
 
-@media screen and (max-width: 690px) {
-    .carousel-slie {
-        height: 100%;
-    }
-}
+@media screen and (max-width: 720px) {
+  .card {
+    margin: 5px;
+    min-height: 400px;
+    padding: 10px 0;
+  }
 
+  .card-body {
+    padding: 1.25rem 0;
+  }
+
+  .carousel {
+    min-width: 300px;
+    min-height: 250px;
+  }
+
+  h1 {
+    padding: 0 10px;
+  }
+
+  img,
+  p,
+  form,
+  .carousel {
+    padding: 0 5px;
+  }
+}
