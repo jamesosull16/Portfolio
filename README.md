@@ -2,7 +2,7 @@
 
 ---
 
-In todays world, end users are on their phones the majority of the time and would be the fist thing they reach for when needing to access the interwebs. Thats why developing with a mobile first mindset is crucial and
+Building with a mobile-first mindset is of the utmost importance for websites and applications to seemlessly transition from a desktop to a mobile screen. This application will showcase the abilities of responsive design and will consist of a main introductory page, a past and current projects page and a contact page.
 
 ---
 
@@ -11,7 +11,7 @@ In todays world, end users are on their phones the majority of the time and woul
 ---
 
 - [Github Repo](https://github.com/jamesosull16/Portfolio)
-- [Live Site](https://jamesosull16.github.io/Portfolio/)
+- [Portfolio Page](https://jamesosull16.github.io/Portfolio/)
 
 ---
 
@@ -19,8 +19,8 @@ In todays world, end users are on their phones the majority of the time and woul
 
 ---
 
-- [Bottstrap](https://getbootstrap.com/ "Bootstrap")
-- [Unsplash](http://example.com "Unsplash")
-- [Google Fonts](https://fonts.google.com/ "Google Fonts")
+- Bootstrap
+- Unsplas
+- Google Fonts
 
 ---
