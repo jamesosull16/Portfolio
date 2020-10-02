@@ -10,6 +10,9 @@ In todays world, end users are on their phones the majority of the time and woul
 
 ---
 
+- [Github Repo](https://github.com/jamesosull16/Portfolio)
+- [Live Site](https://jamesosull16.github.io/Portfolio/)
+
 ---
 
 ### Resources
