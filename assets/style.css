@@ -35,8 +35,9 @@ a {
   background-color: #ece5dd;
 }
 
-.card-body img {
-  margin-right: 20px;
+.card-image-top {
+  width: 100px;
+  height: 100px;
 }
 
 form label {
@@ -48,32 +49,4 @@ footer {
   background-color: #343a3f;
   margin-top: 20px;
   overflow-x: hidden;
-}
-
-@media screen and (max-width: 720px) {
-  .card {
-    margin: 5px;
-    min-height: 400px;
-    padding: 10px 0;
-  }
-
-  .card-body {
-    padding: 1.25rem 0;
-  }
-
-  .carousel {
-    min-width: 300px;
-    min-height: 250px;
-  }
-
-  h1 {
-    padding: 0 10px;
-  }
-
-  img,
-  p,
-  form,
-  .carousel {
-    padding: 0 5px;
-  }
 }
