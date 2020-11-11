@@ -2,7 +2,10 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
     <title>O'Sullivan's Coding World</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Concert+One&family=Nova+Flat&family=Righteous&family=Squada+One&display=swap"
@@ -17,6 +20,7 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
+    <!-- start of navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="./home.html"> James O'Sullivan</a>
       <button
@@ -51,14 +55,54 @@
         </ul>
       </div>
     </nav>
-
-    <div class="container">
-      <div class="center"></div>
-      <a href="./assets/Resume2021.pdf" target="_blank" class="btn btn-info"
-        >Resume</a
-      >
-    </div>
-
+    <!-- start of form -->
+    <main class="row justify-content-center">
+      <div class="col-lg-10">
+        <div class="card">
+          <section class="card-body">
+            <h1>Reach Out</h1>
+            <form>
+              <div class="form-group">
+                <label>Full Name</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="name-input"
+                  placeholder="Full Name"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>Email Address</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email-input"
+                  placeholder="info@email.com"
+                  required
+                />
+              </div>
+              <div class="form-group">
+                <label>Message</label>
+                <textarea
+                  class="form-control"
+                  id="message-input"
+                  rows="5"
+                ></textarea>
+              </div>
+              <a
+                class="btn btn-outline-dark"
+                href="#"
+                type="submit"
+                role="button"
+                >Submit</a
+              >
+            </form>
+          </section>
+        </div>
+      </div>
+    </main>
+    <!-- footer code -->
     <footer class="fixed-bottom">
       <a href="https://github.com/jamesosull16" target="_blank">
         <img src="./assets/githubwhite.png" alt="Github"
@@ -73,8 +117,7 @@
         <img src="./assets/instagramwhite.png" alt="Instagram"
       /></a>
     </footer>
-
-    <!-- impoorting the bootstrap JS -->
+    <!-- importing bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
