@@ -19,8 +19,9 @@
     />
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
+
   <body>
-    <!-- start of navbar -->
+    <!-- start navbar -->
     <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
       <a class="navbar-brand" href="./home.html"> James O'Sullivan</a>
       <button
@@ -55,54 +56,49 @@
         </ul>
       </div>
     </nav>
-    <!-- start of form -->
+
+    <!-- start main body  -->
     <main class="row justify-content-center">
-      <div class="col-lg-10">
+      <div class="col-lg-10" id="cards">
         <div class="card">
           <section class="card-body">
-            <h1>Reach Out</h1>
-            <form>
-              <div class="form-group">
-                <label>Full Name</label>
-                <input
-                  type="text"
-                  class="form-control"
-                  id="name-input"
-                  placeholder="Full Name"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label>Email Address</label>
-                <input
-                  type="email"
-                  class="form-control"
-                  id="email-input"
-                  placeholder="info@email.com"
-                  required
-                />
-              </div>
-              <div class="form-group">
-                <label>Message</label>
-                <textarea
-                  class="form-control"
-                  id="message-input"
-                  rows="5"
-                ></textarea>
-              </div>
-              <a
-                class="btn btn-outline-dark"
-                href="#"
-                type="submit"
-                role="button"
-                >Submit</a
-              >
-            </form>
+            <h1>About Me</h1>
+            <img
+              src="./assets/portfoliopic.jpg"
+              class="float-left img-fluid spacer small-image"
+              alt="Kona 2019"
+              width="350px"
+            />
+            <p>
+              I was born in the United Kingdom and still hold my British
+              passport, so please don't be confused if some of my words are
+              spelt a little different. I have been in the United States since
+              1992 and have experienced living on both coasts of the country and
+              now in Colorado.
+            </p>
+            <p>
+              Currently I'm working as a Software Test Engineer for a gym
+              management software company. I love the job for it's daily
+              challenges, endless growth oppurtunities but most importantly, the
+              people and the passion they have to help make the world healthier
+              and happier.
+            </p>
+            <p>
+              When I'm not working, I'm usually training for some form of
+              endurance event. I am a two time Boston Marathon finisher and a 9x
+              Ironman triathlon fnisher. The highlight of my endurance career
+              thus far has most definitely been qualfying for and competing in
+              the Ironman World Championship which is held every year in Kona,
+              HI. When I'm not training or working, spending time with my wife
+              and our dogs, camping, golfing and tasting new beers are some of
+              my favourite activities.
+            </p>
           </section>
         </div>
       </div>
     </main>
-    <!-- footer code -->
+
+    <!-- start footer -->
     <footer class="fixed-bottom">
       <a href="https://github.com/jamesosull16" target="_blank">
         <img src="./assets/githubwhite.png" alt="Github"
@@ -117,7 +113,8 @@
         <img src="./assets/instagramwhite.png" alt="Instagram"
       /></a>
     </footer>
-    <!-- importing bootstrap JS -->
+
+    <!-- import bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
