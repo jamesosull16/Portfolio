@@ -25,15 +25,6 @@ a {
   font-family: "Righteous", cursive;
 }
 
-.btn-info {
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-shrink: inherit;
-  overflow: hidden;
-}
-
 .card {
   margin: 25px;
   padding: 10px;
