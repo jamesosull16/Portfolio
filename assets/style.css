@@ -25,6 +25,10 @@ a {
   font-family: "Righteous", cursive;
 }
 
+h3 {
+  font-family: "Nova Flat", cursive;
+}
+
 .card {
   margin: 25px;
   padding: 10px;
@@ -33,6 +37,10 @@ a {
 
 .card-body img {
   margin-right: 10px;
+}
+
+btn-primary {
+  align-content: center;
 }
 
 form label {
@@ -49,4 +57,17 @@ footer {
 
 .card-body {
   margin-bottom: 25px;
+}
+
+#personal {
+  text-align: center;
+}
+
+.btn-outline-info {
+  margin: 5px;
+}
+
+#social {
+  text-align: center;
+  clear: both;
 }

@@ -2,8 +2,11 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>O'Sullivan's Coding World</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <title>James O'Sullivan</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Concert+One&family=Nova+Flat&family=Righteous&family=Squada+One&display=swap"
       rel="stylesheet"
@@ -15,59 +18,38 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="./assets/style.css" />
+    <script
+      src="https://kit.fontawesome.com/e263f538a7.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
-    <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-dark">
-      <a class="navbar-brand" href="./index.html"> James O'Sullivan</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarTogglerDemo02"
-        aria-controls="navbarTogglerDemo02"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+    <main class="containter">
+      <div class="card bg-dark text-white">
+        <img src="./assets/marek-piwnicki-NxGcrC8sLss-unsplash.jpg" class="card-img" alt="...">
+        <div id="personal"     class="card-img-overlay">
+          
+          <button type="button" class="btn btn-outline-info" id="aboutBtn">
+          </button>
 
-      <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" href="./assets/about.html"
-              >About <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="./assets/portfolio.html"
-              >Projects <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" target="_blank" href="./assets/Resume2021.pdf"
-              >Resume <span class="sr-only">(current)</span></a
-            >
-          </li>
-        </ul>
+          <button type="button" class="btn btn-outline-info"
+          id="projectsBtn"></button>
+
+          <button type="button" class="btn btn-outline-info" id="resumeBtn"></button>
+          
+          <button type="button" class="btn btn-outline-info" id="githubBtn"></button>
+
+          <button type="button" class="btn btn-outline-info" id="linkedinBtn"></button>
+        
+
+        </div>
       </div>
-    </nav>
 
-    <footer class="fixed-bottom">
-      <a href="https://github.com/jamesosull16" target="_blank">
-        <img src="./assets/githubwhite.png" alt="Github"
-      /></a>
-      <a
-        href="https://www.linkedin.com/in/james-o-sullivan-5081b941/"
-        target="_blank"
-      >
-        <img src="./assets/linkedinwhite.png" alt="Linkedin"
-      /></a>
-      <!-- <a href="https://www.instagram.com/josullivantri16/" target="_blank">
-        <img src="./assets/instagramwhite.png" alt="Instagram"
-      /></a> -->
-    </footer>
 
-    <!-- impoorting the bootstrap JS -->
+    </main>
+  </body>
+
+    <!-- import bootstrap JS -->
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
@@ -83,6 +65,6 @@
       integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
       crossorigin="anonymous"
     ></script>
-    <script src="./script.js"></script>
+    <script src="./assets/script.js"></script>
   </body>
 </html>
