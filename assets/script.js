@@ -2,21 +2,18 @@ $(document).ready(function () {
   const personalInfo = $("#personal");
   const name = $("<h1>");
   const job = $("<h3>");
-  const aboutBtn = $(
-    "<button>",
-    { class: "btn btn-outline-info" },
-    { id: "aboutBtn" }
-  );
-  const projectsBtn = $(
-    "<button>",
-    { class: "btn btn-outline-info" },
-    { id: "projectsBtn" }
-  );
-  const resumeBtn = $(
-    "<button>",
-    { class: "btn btn-outline-info" },
-    { id: "resumeBtn" }
-  );
+  const aboutBtn = $("<button>", {
+    class: "btn btn-outline-info",
+    id: "aboutBtn",
+  });
+  const projectsBtn = $("<button>", {
+    class: "btn btn-outline-info",
+    id: "projectsBtn",
+  });
+  const resumeBtn = $("<button>", {
+    class: "btn btn-outline-info",
+    id: "resumeBtn",
+  });
 
   name.text("James O'Sullivan");
   job.text("Software Developer");
@@ -34,16 +31,14 @@ $(document).ready(function () {
   //social images and links
   const socialLinks = $("#social");
 
-  const githubBtn = $(
-    "<button>",
-    { class: "btn btn-outline-info" },
-    { id: "githubBtn" }
-  );
-  const linkedinBtn = $(
-    "<button>",
-    { class: "btn btn-outline-info" },
-    { id: "linkedinBtn" }
-  );
+  const githubBtn = $("<button>", {
+    class: "btn btn-outline-info",
+    id: "githubBtn",
+  });
+  const linkedinBtn = $("<button>", {
+    class: "btn btn-outline-info",
+    id: "linkedinBtn",
+  });
 
   githubBtn.text("Github");
   linkedinBtn.text("LinkedIn");
